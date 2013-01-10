@@ -26,7 +26,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  ShowMessage(Edit1.Text);
+  ShowMessage(Edit1.Text + ' ### Testando o GitHub');
 end;
 
 end.
